@@ -6,7 +6,7 @@
 # Go tests use this curl binary for integration tests.
 #
 
-FROM ubuntu:rolling
+FROM ubuntu:22.10
 
 RUN apt-get update && \
     apt-get upgrade -y && \
