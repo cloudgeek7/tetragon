@@ -1,4 +1,4 @@
-FROM ubuntu:rolling
+FROM ubuntu:23.04
 
 RUN apt-get -y update
 RUN apt-get -y install clang-format-14
